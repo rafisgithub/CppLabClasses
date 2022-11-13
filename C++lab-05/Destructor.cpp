@@ -14,11 +14,14 @@ class myClass{
 			}
 			~myClass(){
 				cout<<"I'm from Destructor\n";
-				cout<<"x="<<x<<" and "<<"y="<<y<<"\n";
+				cout<<"x=~"<<x<<" and "<<"y=~"<<y<<"\n";
+				
 			}
 };
 int main(){
-	myClass obj;
-	obj.show();
+	myClass obj1;
+	obj1.show();
+	myClass obj2;
+	myClass obj3;
 	return 0;
 }

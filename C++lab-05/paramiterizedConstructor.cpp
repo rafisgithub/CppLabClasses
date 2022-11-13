@@ -1,3 +1,5 @@
+//A constructor which has parameters is called parameterized constructor. It is used to provide 
+//different values to distinct objects.
 #include<iostream>
 using namespace std;
 class MathematicalOp{
