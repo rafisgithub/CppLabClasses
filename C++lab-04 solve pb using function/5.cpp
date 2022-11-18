@@ -13,7 +13,10 @@ if(x>=y && x<=z || x<=y && x>=z){
 }
 int main(){
 	int n1,n2,n3;
+	while(1){
 	cin>>n1>>n2>>n3;
-	cout<<mediumOfthreenumbers(n1,n2,n3);
+	cout<<"medium:"<<mediumOfthreenumbers(n1,n2,n3)<<endl;
+	}
+
 	return 0;
 }

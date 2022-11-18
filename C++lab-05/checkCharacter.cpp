@@ -11,8 +11,10 @@ void checkCharacter(char ch){
 }
 int main(){
 	char ch;
+	while(1){
 	cout<<"Enter any character:"<<endl;
 	cin>>ch;
     checkCharacter(ch);
+	}
 
 }

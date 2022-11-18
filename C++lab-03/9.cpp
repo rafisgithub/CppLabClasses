@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int num,counter=0;
+	long long int num,counter=0;
 	cout<<"Enter an integer: "<<endl;
 	cin>>num;
 	while(num!=0){

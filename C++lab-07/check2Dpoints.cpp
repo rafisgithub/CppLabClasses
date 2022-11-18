@@ -18,8 +18,10 @@ class MathematicalOperation{
 };
 int main(){
 	int x,y;
+	while(1){
 	cout<<"Enter points:"<<endl;
 	cin>>x>>y;
 	MathematicalOperation obj(x,y);
+	}
 	return 0;
 }

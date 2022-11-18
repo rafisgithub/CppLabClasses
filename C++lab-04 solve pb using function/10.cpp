@@ -17,6 +17,8 @@ int primeNumber(){
 }
 using namespace std;
 int main(){
-	primeNumber();
+	while(1){
+		primeNumber();
+	}
 	return 0;
 }

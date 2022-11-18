@@ -2,7 +2,7 @@
 using namespace std;
 class MathematicalOperation{
 	private:
-		int n,arr[100],md,mdp,v;
+		int n,arr[100],md,mdp,v;//md=minimum distance and mdp min dis position 
 		public:
 			MathematicalOperation(){
 				cout<<"Enter element number:\n";
@@ -12,7 +12,9 @@ class MathematicalOperation{
 					cin>>arr[i];
 				}
 				if(arr[0]==100){
-					cout<<arr[0]<<"is the cloest of 100 and distance =0\n";
+					mdp=0;
+					md=0;
+//					cout<<arr[0]<<"is the cloest of 100 and distance =0\n";
 				}else if(arr[0]<100){
 					md=100-arr[0];
 				}else{

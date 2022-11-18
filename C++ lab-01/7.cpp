@@ -9,6 +9,6 @@ int main(){
 	temp=n1;
 	n1=n2;
 	n2=temp;
-	cout<<"After swapping first num ="<<n1<< "and sencond number = "<<n2;
+	cout<<"After swapping:\nfirst number :"<<n1<< "\nsencond number :"<<n2;
 	
 }

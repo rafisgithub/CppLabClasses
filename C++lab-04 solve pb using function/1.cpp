@@ -17,9 +17,9 @@ int main(){
 	int n1,n2;
 	cout<<"Enter two integer:"<<endl;
 	cin>>n1>>n2;
-	cout<<sum(n1,n2)<<endl;
-	cout<<subtraction(n1,n2)<<endl;
-	cout<<multiplication(n1,n2)<<endl;
-	cout<<division(n1,n2)<<endl;
+	cout<<"Sum:"<<sum(n1,n2)<<endl;
+	cout<<"Subtraction:"<<subtraction(n1,n2)<<endl;
+	cout<<"Multiplication:"<<multiplication(n1,n2)<<endl;
+	cout<<"Division:"<<division(n1,n2)<<endl;
 	return 0;
 }
