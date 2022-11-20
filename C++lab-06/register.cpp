@@ -31,7 +31,6 @@ class Person{
 					cout<<dateOfbirth[i]<<".";
 				}
 			}
-		
 };
 int main(){
 	Person obj;

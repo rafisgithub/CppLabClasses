@@ -10,5 +10,5 @@ int main(){
 	reminder=dividend%divisor;
 	cout<<"Quotient="<<quotient<<endl;
 	cout<<"Reminder ="<<reminder<<endl;
-	
+	return 0;
 }

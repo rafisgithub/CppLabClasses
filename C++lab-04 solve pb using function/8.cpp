@@ -2,9 +2,7 @@
 #include<iostream>
 using namespace std;
 #define ll long long
-int main()
-{
-
+int main(){
 ll n;
 while(1)
 {

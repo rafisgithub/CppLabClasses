@@ -11,7 +11,6 @@ class Box{
 				length=z;
 				volume=x*y*z;
 				cout<<"Volume of the box ="<<volume;
-				
 			}
 };
 int main(){

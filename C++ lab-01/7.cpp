@@ -10,5 +10,4 @@ int main(){
 	n1=n2;
 	n2=temp;
 	cout<<"After swapping:\nfirst number :"<<n1<< "\nsencond number :"<<n2;
-	
 }

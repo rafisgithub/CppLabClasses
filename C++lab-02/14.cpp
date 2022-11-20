@@ -12,4 +12,5 @@ int main(){
 	}else if(percentage <40){
 		cout<<"Fail"<<endl;
 	}
+	return 0;
 }

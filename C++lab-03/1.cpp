@@ -11,5 +11,4 @@ int main(){
 	cin>>n3;
 	sum=n1+n2+n3;
 	cout<<"The sum ="<<sum;
-	
 }

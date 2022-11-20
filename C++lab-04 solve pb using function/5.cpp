@@ -9,7 +9,6 @@ if(x>=y && x<=z || x<=y && x>=z){
 }else{
 	return z;
 }
-
 }
 int main(){
 	int n1,n2,n3;

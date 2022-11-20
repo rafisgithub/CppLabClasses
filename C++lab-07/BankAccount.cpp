@@ -35,7 +35,9 @@ class Bank{
 			}
 			void Deposit(){
 				cout<<"Enter your name:\n";
-				cin>>nameOfTheDepositor;
+				cin.ignore();
+				getline(cin,nameOfTheDepositor);
+				// cin>>nameOfTheDepositor;
 				cout<<"Enter Account number:\n";
 				cin>>accountNumber;
 				cout<<"Deposit Amount.\n";
