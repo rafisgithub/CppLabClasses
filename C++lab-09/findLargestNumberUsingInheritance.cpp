@@ -29,6 +29,7 @@ class XYZ:public QWERTY{
 int main(){
 	XYZ obj;
 	int n1,n2,n3;
+	cout<<"Enter three number:\n";
 	cin>>n1>>n2>>n3;
 	obj.StreValues(n1,n2,n3);
 	obj.CalculateLargestN();
