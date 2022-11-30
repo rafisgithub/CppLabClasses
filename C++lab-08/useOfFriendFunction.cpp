@@ -25,4 +25,4 @@ int main(){
 	else
 	cout<<a<<" is not divided by "<<b<<"\n";
 	return 0;
-}
+}//Attribute(int variable)
