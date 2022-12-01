@@ -1,3 +1,4 @@
+//Check Leap year if not then calculate the nearest leap year.
 #include<iostream>
 using namespace std;
 int LeapYear1(int year){
