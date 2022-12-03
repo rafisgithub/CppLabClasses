@@ -74,6 +74,13 @@ class MathemticalOperation{
 				}else{
 					c=c2;
 				}
+				//Initialize zero in every elements
+				for(int i=0;i<r;i++){
+					for(int j=0;j<c;j++){
+						sum[i][j]+=0;
+					}
+				}
+				//Sum of A and B matrix
 				for(int i=0;i<r;i++){
 					for(int j=0;j<c;j++){
 						sum[i][j]=A[i][j]+B[i][j];
