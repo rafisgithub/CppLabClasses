@@ -4,7 +4,7 @@ class Factorial{
 	private:
 		int n;
 		public:
-			void getInput(){
+			void get_input(){
 				cout<<"Enter a number:"<<endl;
 				cin>>n;
 			}
@@ -18,7 +18,7 @@ class Factorial{
 };
 int main(){
 	Factorial obj;
-	obj.getInput();
+	obj.get_input();
 	obj.fact();
 	return 0;
 }
