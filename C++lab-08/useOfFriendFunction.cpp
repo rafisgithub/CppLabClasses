@@ -7,9 +7,9 @@ class MyClass{
 			n1=x;
 			n2=y;
 		}
-		friend int isFactor(MyClass ob);
+		friend int isFactor(MyClass &ob);
 };
-int isFactor(MyClass ob){
+int isFactor(MyClass &ob){
 	if(ob.n1%ob.n2==0)
 	return 1;
 	else 
